@@ -1,0 +1,14 @@
+section {
+    height: 170vh;
+    border: 2px solid red;
+    margin: 5px;
+}
+
+section#nav {
+    height: 20vh;
+    background-color: blue;
+}
+
+html {
+    scroll-behavior: smooth;
+}

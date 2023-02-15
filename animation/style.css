@@ -1,0 +1,33 @@
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    /* animation-name: move; */
+    /* animation-duration: 7s; */
+    /* animation-delay: 5s; */
+    /* animation-iteration-count: infinite; */
+    /* animation-timing-function: ease-in-out; */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: go 2s linear 5s forwards;
+}
+
+@keyframes go {
+    0% {
+        border-radius: 0px;
+        background-color: yellow;
+    }
+    100% {
+        border-radius: 50px;
+        background-color: red;
+    }
+}
+
+#image {
+    /* filter: grayscale(50%); */
+    /* filter: opacity(10%); */
+    /* filter: hue-rotate(40deg); */
+    /* filter: brightness(20%); */
+    /* filter: contrast(200%); */
+    /* filter: blur(3px); */
+    filter: drop-shadow(5px 5px 5px black);
+}

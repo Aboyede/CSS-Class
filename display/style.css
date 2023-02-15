@@ -1,0 +1,128 @@
+section {
+    padding: 2px;
+    border: 1px solid orangered;
+    display: flex;
+    gap: 10px;
+    /* height: 500px; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* width: 400px; */
+    flex-wrap: wrap;
+    padding: 10px 20px 0px 20px;
+}
+
+.one {
+    width: 100%;
+    /* height: 200px; */
+    border: 1px solid green;
+    background-color: yellow;
+    padding: 5px;
+    text-align: justify;
+    order: 2;
+}
+
+@media screen and (max-width: 470px) {
+    .one {
+        height: 500px;
+        text-align: justify;
+    }
+}
+
+.two {
+    /* height: 200px; */
+    border: 1px solid green;
+    background-color: black;
+    color: white;
+    /* overflow: auto; */
+    width: 100%;
+    text-align: justify;
+    padding: 5px;
+    order: 1;
+}
+
+.three {
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    background-color: red;
+    order: 4;
+}
+
+.four {
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    background-color: blue;
+    /* visibility: hidden; */
+    order: 3;
+}
+
+p img {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* text-align: justify; */
+}
+
+.p2 img {
+    float: right;
+    margin: 0 20px 0 20px;
+}
+
+h3 {
+    margin-left: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.div1 {
+    padding: 5px;
+    background: red;
+}
+
+.div2 {
+    padding: 5px;
+    background: green;
+}
+
+.div3 {
+    padding: 5px;
+    background: blue;
+}
+
+.div1,.div2,.div3 {
+    float: left;
+    margin: 0 20px 0 20px;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+ul li {
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    background-color: brown;
+    padding: 5px;
+    color: white;
+}
+ul li a:hover {
+    background-color: red;
+    color: yellow;
+}
+ul li a:active {
+    background-color: chocolate;
+}
+
+.gt {
+    width: 10px;
+    height: 10px;
+    border: 1px solid orange;
+    background-color: white;
+    box-shadow: 0 10px 8px 0 orangered, 0 10px 20px 0 orangered, 0 10px 8px 0 orangered, 0 10px 20px 0 orangered;
+    ;
+}

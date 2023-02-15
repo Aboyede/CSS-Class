@@ -1,0 +1,72 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Sofia&family=Sofia+Sans&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+.divOne {
+    border: thick solid;
+    width: 100px;
+    height: 100px;
+    /* background-color: rgb(0, 255, 0); */
+    /* background-color: #6F2CF4; */
+    /* opacity: 0.4; */
+    /* background-color: rgba(255, 0, 0, 1); */
+    /* background: radial-gradient(red,blue,yellow); */
+}
+
+.rainbow {
+    /* border: 2px solid black; */
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background: conic-gradient(red,orange,yellow,green,blue,indigo,violet);
+}
+.para1 {
+    color: red;
+    text-decoration: 2px dashed underline black;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    color: brown;
+    text-indent: 10px;
+}
+a:hover {
+    color: red;
+    /* text-decoration: underline; */
+    /* text-transform: uppercase; */
+}
+.para2 {
+    color: blue;
+    /* text-indent: 20px; */
+    /* letter-spacing: 2px; */
+    /* word-spacing: 20px; */
+    /* text-shadow: 2px 3px 5px black; */
+    /* font-family:  monospace; */
+    /* font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 800; */
+    /* font-family: 'Sofia', cursive; */
+    /* font-family: 'Sofia Sans', sans-serif; */
+    font-family: 'Noto Serif', serif;
+}
+
+/* .para2:hover {
+    color: orangered;
+    background-color: black;
+    text-transform: capitalize;
+    text-align: justify;
+} */
+input {
+    text-transform: uppercase;
+    color: green;
+}
+input::placeholder {
+    color: red;
+    text-transform: lowercase;
+    text-align: center;
+    
+}
+button:hover {
+    background-color: black;
+    color: white;
+    margin-left: 5px;
+}

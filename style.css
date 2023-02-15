@@ -1,0 +1,64 @@
+h4 {
+    color: blueviolet;
+    font-size: 30px;
+    background-color: yellow;
+}
+
+.divOne {
+    color: peru;
+}
+
+#div {
+    color: red;
+}
+
+.oneDiv {
+    border: 2px solid salmon;
+    width: 300px;
+    height: 50px;
+    margin: 5px;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.brOne {
+    border-radius: 50px;
+}
+
+.brTwo {
+    border-radius: 10px;
+}
+
+/* #longDiv {
+    width: 400px;
+} */
+
+* {
+    /* border: 2px solid red; */
+    /* margin: 0px;
+    padding: 0px; */
+}
+
+h1,h4,div {
+    text-decoration: underline;
+}
+section div {
+    border: 2px solid red;
+    width: 300px;
+    height: 50px;
+    margin: 5px;
+}
+
+#div {
+    color: goldenrod;
+}
